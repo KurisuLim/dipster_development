@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Banner from './components/Banner';
 import About from './components/About';
 import Services from './components/Services';
+import Portfolio from './components/Portfoilio';
 
 
 class App extends Component {
@@ -20,6 +21,7 @@ class App extends Component {
         <Banner />
         <About />
         <Services />
+        <Portfolio />
       </div>
     );
   }
